@@ -1,0 +1,14 @@
+{
+  "name": "kg-suite-vault-contract-resolver",
+  "version": "0.1.0",
+  "description": "Generalized N-axis policy intersection resolver for Kinetic Gain Protocol Suite vault contracts. Extracted from DefenseTech's 3-axis resolvePolicy() so any vertical or buyer-composed multi-vertical contract can declare N orthogonal axes and resolve them at runtime to a single most-restrictive policy.",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mizcausevic-dev/kg-suite-vault-contract-resolver",
+  "repository": { "type": "git", "url": "git+https://github.com/mizcausevic-dev/kg-suite-vault-contract-resolver.git" },
+  "keywords": ["kinetic-gain-protocol-suite", "vault-contract", "policy-resolver", "n-axis", "intersection"]
+}
